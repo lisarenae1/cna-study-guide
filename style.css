@@ -105,3 +105,13 @@ footer {
     text-align: center;
     padding: 20px;
 }
+
+.cna-photo {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 20px auto;
+    border: 3px solid white;
+    border-radius: 12px;
+}
