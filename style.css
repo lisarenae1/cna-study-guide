@@ -1,23 +1,21 @@
 
-/* CNA Study Guide Website */
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #f0f8ff;
-    color: #222;
+    background-color: #990000;
+    color: white;
     line-height: 1.6;
 }
 
 header {
-    background-color: #0077b6;
+    background-color: #cc0000;
     color: white;
     text-align: center;
     padding: 30px;
 }
 
 nav {
-    background-color: #023e8a;
+    background-color: #800000;
     text-align: center;
     padding: 15px;
 }
@@ -29,8 +27,7 @@ nav a {
     font-weight: bold;
 }
 
-nav a:hover,
-nav a:focus {
+nav a:hover {
     text-decoration: underline;
 }
 
@@ -41,41 +38,35 @@ main {
 }
 
 section {
-    background-color: white;
+    background-color: #b30000;
+    color: white;
     padding: 25px;
     margin-bottom: 20px;
     border-radius: 10px;
 }
 
-h2 {
-    color: #005f8f;
+h2, h3, p, li {
+    color: white;
 }
 
 button {
-    background-color: #0077b6;
+    background-color: #800000;
     color: white;
     padding: 12px 20px;
-    border: none;
+    border: 2px solid white;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
 }
 
 button:hover {
-    background-color: #023e8a;
+    background-color: #660000;
 }
 
 button:focus-visible,
 a:focus-visible {
-    outline: 3px solid #ffbf47;
+    outline: 3px solid white;
     outline-offset: 3px;
-}
-
-footer {
-    background-color: #023e8a;
-    color: white;
-    text-align: center;
-    padding: 15px;
 }
 
 .choice {
@@ -87,8 +78,7 @@ footer {
 }
 
 .choice:disabled {
-    opacity: 0.7;
-    cursor: not-allowed;
+    opacity: 0.8;
 }
 
 #questionText {
@@ -108,4 +98,11 @@ footer {
 
 [hidden] {
     display: none !important;
+}
+
+footer {
+    background-color: #800000;
+    color: white;
+    text-align: center;
+    padding: 15px;
 }
