@@ -41,21 +41,35 @@
             </ul>
         </section>
 
-        <section id="quiz">
-            <h2>Practice Quiz</h2>
-            <p>
-                Question: What is the best way
-                to prevent the spread of infection?
-            </p>
+        
+<section id="quiz">
+    <h2>CNA Practice Exam</h2>
+    <p>Test your knowledge with 20 CNA questions!</p>
 
-            <button type="button" id="answerButton">
-                Show Answer
-            </button>
+    <div id="quizBox">
+        <h3 id="questionNumber"></h3>
+        <p id="questionText"></p>
 
-            <p id="answer" hidden>
-                Proper hand hygiene.
-            </p>
-        </section>
+        <div id="answerChoices"></div>
+
+        <p id="feedback" role="status"
+           aria-live="polite"></p>
+
+        <button id="nextButton" type="button"
+                hidden>
+            Next Question
+        </button>
+    </div>
+
+    <div id="results" hidden>
+        <h3>Quiz Complete!</h3>
+        <p id="finalScore"></p>
+        <button id="restartButton" type="button">
+            Try Again
+        </button>
+    </div>
+</section>
+
     </main>
 
     <footer>
