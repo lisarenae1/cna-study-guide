@@ -2,29 +2,29 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #990000;
+    background-color: #a6e3ff;
     color: white;
     line-height: 1.6;
 }
 
 header {
-    background-color: #cc0000;
+    background-color: #002366;
     color: white;
     text-align: center;
-    padding: 30px;
+    padding: 35px;
 }
 
 nav {
-    background-color: #800000;
+    background-color: #008cdb;
     text-align: center;
-    padding: 15px;
+    padding: 18px;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    margin: 10px;
     font-weight: bold;
+    margin: 12px;
 }
 
 nav a:hover {
@@ -32,40 +32,41 @@ nav a:hover {
 }
 
 main {
-    max-width: 800px;
+    max-width: 900px;
     margin: auto;
-    padding: 20px;
+    padding: 25px;
 }
 
 section {
-    background-color: #b30000;
+    background-color: #002b80;
     color: white;
-    padding: 25px;
-    margin-bottom: 20px;
-    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 25px;
+    border: 3px solid white;
+    border-radius: 15px;
 }
 
-h2, h3, p, li {
+h1, h2, h3, p, li {
     color: white;
 }
 
 button {
-    background-color: #800000;
+    background-color: #0077cc;
     color: white;
-    padding: 12px 20px;
+    padding: 14px 20px;
     border: 2px solid white;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
     font-size: 16px;
 }
 
 button:hover {
-    background-color: #660000;
+    background-color: #005599;
 }
 
 button:focus-visible,
 a:focus-visible {
-    outline: 3px solid white;
+    outline: 3px solid #ffdf70;
     outline-offset: 3px;
 }
 
@@ -74,11 +75,11 @@ a:focus-visible {
     width: 100%;
     text-align: left;
     margin: 10px 0;
-    padding: 15px;
 }
 
 .choice:disabled {
     opacity: 0.8;
+    cursor: not-allowed;
 }
 
 #questionText {
@@ -88,12 +89,10 @@ a:focus-visible {
 
 #feedback {
     font-weight: bold;
-    margin-top: 15px;
 }
 
 #results {
     text-align: center;
-    padding: 20px;
 }
 
 [hidden] {
@@ -101,8 +100,8 @@ a:focus-visible {
 }
 
 footer {
-    background-color: #800000;
+    background-color: #002366;
     color: white;
     text-align: center;
-    padding: 15px;
+    padding: 20px;
 }
