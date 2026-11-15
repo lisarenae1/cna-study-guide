@@ -115,3 +115,13 @@ footer {
     border: 3px solid white;
     border-radius: 12px;
 }
+
+<div class="photo-gallery">
+    <img src="cna-care1.jpeg.jpg"
+         alt="CNA healthcare training"
+         class="cna-photo">
+
+    <img src="cna-care2.jpeg.jpeg"
+         alt="Nursing assistant study material"
+         class="cna-photo">
+</div>
