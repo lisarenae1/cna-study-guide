@@ -1,100 +1,66 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
-    <title>CNA Study Guide</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Prepare for your CNA exam with study materials and practice questions.">
+    <title>CNA Study Guide | Home</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
+    <a class="skip" href="#main">Skip to content</a>
+
     <header>
-        <h1>CNA Study Guide</h1>
-        <p>Prepare for Your CNA Exam!</p>
+        <a class="brand" href="index.html">
+            <img src="cna-logo.svg" alt="CNA Study Guide logo">
+            CNA Study Guide
+        </a>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html" aria-current="page">Home</a></li>
+                <li><a href="study.html">Study Guide</a></li>
+                <li><a href="quiz.html">Practice Quiz</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <nav aria-label="Main navigation">
-        <a href="#home">Home</a>
-        <a href="#topics">Study Topics</a>
-        <a href="#quiz">Practice Quiz</a>
-    </nav>
+    <main id="main" tabindex="-1">
+        <h1>CNA Study Guide</h1>
+        <p class="intro">
+            Prepare for your Certified Nursing Assistant exam
+            with study materials and practice questions.
+        </p>
 
-    <main>
-        <section id="home">
-            <h2>Welcome!</h2>
-            <p>
-                This website helps future Certified
-                Nursing Assistants prepare for
-                their CNA certification exam.
-                
+        <h2>Start Your CNA Journey</h2>
+        <p>
+            Review essential nursing assistant skills,
+            patient safety, and respectful care.
+            This independent study resource is not an
+            official certification course.
+        </p>
 
-<img src="cna-care.jpeg.webp"
-     alt="Nursing assistant helping an older patient"
-     class="cna-photo">
+        <div class="photos">
+            <img src="cna-care.jpeg.webp" alt="CNA patient care illustration 1">
+            <img src="cna-care1.jpeg.jpg" alt="CNA patient care illustration 2">
+            <img src="cna-care2.jpeg.jpeg" alt="CNA patient care illustration 3">
+        </div>
 
+        <h2>Explore CNA Study Topics</h2>
+        <ul>
+            <li>Infection prevention</li>
+            <li>Resident rights</li>
+            <li>Basic nursing skills</li>
+        </ul>
 
-            </p>
-        </section>
-
-        <section id="topics">
-            <h2>CNA Study Topics</h2>
-            <ul>
-                <li>Infection Control</li>
-                <li>Patient Safety</li>
-                <li>Vital Signs</li>
-                <li>Personal Care Skills</li>
-                <li>Communication Skills</li>
-            </ul>
-            
-<div class="photo-gallery">
-    <img src="cna-care1.jpeg.jpg"
-         alt="CNA healthcare training"
-         class="cna-photo">
-
-    <img src="cna-care2.jpeg.jpeg"
-         alt="Nursing assistant study material"
-         class="cna-photo">
-</div>
-
-        </section>
-
-        
-<section id="quiz">
-    <h2>CNA Practice Exam</h2>
-    <p>Test your knowledge with 20 CNA questions!</p>
-
-    <div id="quizBox">
-        <h3 id="questionNumber"></h3>
-        <p id="questionText"></p>
-
-        <div id="answerChoices"></div>
-
-        <p id="feedback" role="status"
-           aria-live="polite"></p>
-
-        <button id="nextButton" type="button"
-                hidden>
-            Next Question
-        </button>
-    </div>
-
-    <div id="results" hidden>
-        <h3>Quiz Complete!</h3>
-        <p id="finalScore"></p>
-        <button id="restartButton" type="button">
-            Try Again
-        </button>
-    </div>
-</section>
-
+        <a class="button" href="study.html">Start Studying</a>
     </main>
 
     <footer>
-        <p>CNA Study Guide | Student Project</p>
+        <p>CNA Study Guide | Educational student project</p>
+        <a href="about.html">About and Feedback</a>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
-
