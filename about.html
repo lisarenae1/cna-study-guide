@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Learn about the CNA Study Guide educational website.">
+    <title>CNA Study Guide | About</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <a class="skip" href="#main">Skip to content</a>
+
+    <header>
+        <a class="brand" href="index.html">
+            <img src="cna-logo.svg" alt="CNA Study Guide logo">
+            CNA Study Guide
+        </a>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="study.html">Study Guide</a></li>
+                <li><a href="quiz.html">Practice Quiz</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="about.html" aria-current="page">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main" tabindex="-1">
+        <h1>About CNA Study Guide</h1>
+
+        <h2>Our Mission</h2>
+        <p>
+            CNA Study Guide was created to help aspiring
+            Certified Nursing Assistants prepare for their
+            exams and develop confidence in their skills.
+        </p>
+
+        <h2>CNA Website Purpose</h2>
+        <p>
+            This website provides educational study materials,
+            interactive quizzes and healthcare resources.
+            It is a student website development project.
+        </p>
+
+        <h2>Website Feedback</h2>
+        <p>
+            Try our demonstration feedback form.
+            Information is not sent or stored.
+            Please use sample information only.
+        </p>
+
+        <form id="feedback">
+
+            <label for="name">Name (required)</label>
+            <input type="text" id="name" name="name"
+                   maxlength="80" required>
+
+            <label for="email">Email (required)</label>
+            <input type="email" id="email" name="email"
+                   required>
+
+            <label for="message">Feedback (required)</label>
+            <textarea id="message" name="message"
+                      rows="5" maxlength="500" required></textarea>
+
+            <button type="submit">Submit Feedback</button>
+
+            <p id="feedback-result" role="status"></p>
+        </form>
+
+        <a class="button" href="index.html">Return to Home</a>
+    </main>
+
+    <footer>
+        <p>CNA Study Guide | Educational student project</p>
+        <a href="about.html">About and Feedback</a>
+    </footer>
+</body>
+</html>
