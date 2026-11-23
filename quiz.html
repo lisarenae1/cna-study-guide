@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Practice for your CNA exam with 12 interactive questions.">
+    <title>CNA Study Guide | Practice Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <a class="skip" href="#main">Skip to content</a>
+
+    <header>
+        <a class="brand" href="index.html">
+            <img src="cna-logo.svg" alt="CNA Study Guide logo">
+            CNA Study Guide
+        </a>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="study.html">Study Guide</a></li>
+                <li><a href="quiz.html" aria-current="page">Practice Quiz</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main" tabindex="-1">
+        <h1>CNA Practice Quiz</h1>
+        <p>Test your knowledge and prepare for your CNA exam.</p>
+
+        <h2>CNA Exam Practice Questions</h2>
+        <p>Answer all questions. There is no time limit.</p>
+
+        <form id="quiz">
+
+            <fieldset>
+                <legend>1. What should you do before and after patient care?</legend>
+                <label><input type="radio" name="q0" value="0" required> Perform hand hygiene</label>
+                <label><input type="radio" name="q0" value="1"> Remove the call light</label>
+                <label><input type="radio" name="q0" value="2"> Skip wearing required gloves</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>2. What should you do if a resident falls?</legend>
+                <label><input type="radio" name="q1" value="0" required> Lift them immediately</label>
+                <label><input type="radio" name="q1" value="1"> Stay with them and notify the nurse</label>
+                <label><input type="radio" name="q1" value="2"> Ignore the fall</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>3. How should you protect resident privacy?</legend>
+                <label><input type="radio" name="q2" value="0" required> Discuss care publicly</label>
+                <label><input type="radio" name="q2" value="1"> Leave doors open</label>
+                <label><input type="radio" name="q2" value="2"> Close the privacy curtain during care</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>4. Where should the call light be?</legend>
+                <label><input type="radio" name="q3" value="0" required> Within reach</label>
+                <label><input type="radio" name="q3" value="1"> Outside the room</label>
+                <label><input type="radio" name="q3" value="2"> Under the bed</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>5. What should you do before transferring a resident?</legend>
+                <label><input type="radio" name="q4" value="0" required> Check the care plan and required assistance</label>
+                <label><input type="radio" name="q4" value="1"> Move without warning</label>
+                <label><input type="radio" name="q4" value="2"> Leave wheelchair brakes unlocked</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>6. Who should receive reports of new symptoms?</legend>
+                <label><input type="radio" name="q5" value="0" required> Visitors</label>
+                <label><input type="radio" name="q5" value="1"> The nurse</label>
+                <label><input type="radio" name="q5" value="2"> Other residents</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>7. What is a possible sign of infection?</legend>
+                <label><input type="radio" name="q6" value="0" required> Fever</label>
+                <label><input type="radio" name="q6" value="1"> Normal appetite</label>
+                <label><input type="radio" name="q6" value="2"> Normal sleep</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>8. How should you communicate with residents?</legend>
+                <label><input type="radio" name="q7" value="0" required> Respectfully and clearly</label>
+                <label><input type="radio" name="q7" value="1"> By shouting</label>
+                <label><input type="radio" name="q7" value="2"> By ignoring questions</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>9. What should you do with used gloves?</legend>
+                <label><input type="radio" name="q8" value="0" required> Reuse them</label>
+                <label><input type="radio" name="q8" value="1"> Dispose of them properly and clean your hands</label>
+                <label><input type="radio" name="q8" value="2"> Put them in your pocket</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>10. What helps prevent pressure injuries?</legend>
+                <label><input type="radio" name="q9" value="0" required> Reposition according to the care plan</label>
+                <label><input type="radio" name="q9" value="1"> Keep skin wet</label>
+                <label><input type="radio" name="q9" value="2"> Ignore skin changes</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>11. What should you do if a resident refuses care?</legend>
+                <label><input type="radio" name="q10" value="0" required> Force care</label>
+                <label><input type="radio" name="q10" value="1"> Respect refusal and notify the nurse</label>
+                <label><input type="radio" name="q10" value="2"> Threaten the resident</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>12. What is important when documenting care?</legend>
+                <label><input type="radio" name="q11" value="0" required> Record accurate observations</label>
+                <label><input type="radio" name="q11" value="1"> Guess missing details</label>
+                <label><input type="radio" name="q11" value="2"> Document care before performing it</label>
+            </fieldset>
+
+            <button type="submit">Submit Answers</button>
+            <button type="reset">Try Again</button>
+
+            <p id="result" role="status" tabindex="-1"></p>
+        </form>
+
+        <a class="button" href="study.html">Review Study Guide</a>
+    </main>
+
+    <footer>
+        <p>CNA Study Guide | Educational student project</p>
+        <a href="about.html">About and Feedback</a>
+    </footer>
+</body>
+</html>
