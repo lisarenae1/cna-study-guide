@@ -82,3 +82,35 @@
     </footer>
 </body>
 </html>
+<h2>Listen to Your CNA Lesson</h2>
+
+<button type="button" onclick="readLesson()">
+    Listen to Lesson
+</button>
+
+<button type="button" onclick="speechSynthesis.cancel()">
+    Stop Audio
+</button>
+
+<p id="audioLesson">
+    Certified Nursing Assistants provide personal
+    care, assist with daily activities, measure
+    vital signs, and help maintain patient safety.
+    Always respect patient privacy and dignity.
+</p>
+
+<script>
+function readLesson() {
+    speechSynthesis.cancel();
+
+    const lesson =
+        document.getElementById("audioLesson").innerText;
+
+    const voice = new SpeechSynthesisUtterance(lesson);
+
+    voice.lang = "en-US";
+    voice.rate = 0.9;
+
+    speechSynthesis.speak(voice);
+}
+</script>
